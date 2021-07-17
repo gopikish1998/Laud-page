@@ -1,0 +1,110 @@
+
+.title{
+    text-align: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.data{
+    align-content: center;
+
+}
+.layout{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.button1{
+    background: #E0E1E2;
+    border: 0em;
+    margin: 5px;
+    color:rgb(63, 61, 61);
+    border-radius: 5%;
+    font-weight: bolder;
+}
+.button2{
+    background: #DB2828;
+    border: 0em;
+    margin: 5px;
+    color:white;
+    border-radius: 5%;
+    font-weight: bolder;
+}
+.button3{
+    background: #F2711C;
+    border: 0em;
+    margin: 5px;
+    color: white;
+    border-radius: 5%;
+    font-weight: bolder;
+}
+.quote{
+    padding: 30px;
+}
+.line{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-content: center;
+}
+.award{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .layout{
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+}
+.awards{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.award_title{
+    font-weight: bolder;
+    font-size: 15px;
+    border: solid rgb(170, 170, 170);
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5%;
+    height: 100%;
+}
+.year{
+    opacity: 40%;
+    font-weight: normal;
+}
+.details{
+    font-size: 12px;
+    font-weight: normal;
+}
+.works{
+    justify-content: center;
+    align-content: center;
+    padding-left: 10%;
+    font-size: 13px;
+}
+.footers{
+    font-size: small;
+    font-weight: normal;
+}
+.opaque{
+    opacity: 40%;
+}
+.links{
+    color: blue;
+}
+.vl {
+    border-left: 1px solid rgb(136, 136, 136);
+    height: 100%;
+  }
